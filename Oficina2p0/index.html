@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--
+    Esta é a página inicial do projeto. Nela, está contido um formulário
+    com os dados do orçamento.
+    Após submeter o form, o conteúdo dos campos é passado à página cadastro.php,
+    onde o mesmo é atribuído a variáveis.
+-->
+<html>
+    <head>
+        <title>Cadastro de Orçamento</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="bloco">
+            <form action="cadastro.php" method="post">
+                <p>ID: <input type="number" name="id"></p>
+                <p>Nome do cliente: <input type="text" name="cliente"></p>
+                <p>Data e hora do orçamento: <input type="datetime-local" name="datahora"></p>
+                <p>Nome do vendedor: <input type="text" name="vendedor"></p>
+                <p>Descrição: <input type="text" name="descricao"></p>
+                <p>Valor orçado: <input type="text" name="valor"></p>
+                <p><input type="submit" value="Cadastrar"></p>
+
+            </form>
+            <a href="formconsulta.php">Consultar orçamentos</a>
+        </div>
+    </body>
+</html>

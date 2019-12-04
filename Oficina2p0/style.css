@@ -1,0 +1,30 @@
+/*
+Todas as páginas estão vinculadas ao mesmo arquivo de estilo
+A classe bloco se encontra dentro do body e tem a função de manter centralizado o conteúdo;
+tabela se refere à tabela de orçamentos; e tabela tr se refere aos campos da tabela
+*/
+body{
+    background-color: #454559;
+}
+.bloco{
+    background-color: #454559;
+    width: 35%;
+    margin: auto;
+}
+p{
+    color: antiquewhite;
+}
+a{
+    color: azure;
+}
+h1{
+    color: antiquewhite;
+}
+.tabela{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.tabela tr {
+    color: white;
+}
