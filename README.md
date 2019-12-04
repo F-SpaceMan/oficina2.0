@@ -32,9 +32,4 @@ Com a aplicação online e o o banco pronto, basta acessar a página localizada 
 
 Alguns navegadores podem não ser compatíveis com o campo datetime-local, utilizado para preenchimento de data e hora nos formulários. Recomenda-se o Google Chrome.
 
-![bg](red)
-
-
-
-
 
